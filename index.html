@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Yoshlar Kurslari</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <nav class="navbar">
+    <div class="logo">YoshlarKurslari</div>
+    <ul class="nav-links">
+      <li><a href="#">Bosh sahifa</a></li>
+      <li><a href="#kurslar">Kurslar</a></li>
+      <li><a href="#">Bog'lanish</a></li>
+    </ul>
+    <div class="menu-btn" onclick="toggleMenu()">≡</div>
+  </nav>
+
+  <header class="hero">
+    <div class="animated-bg">
+      <div class="blob blob1"></div>
+      <div class="blob blob2"></div>
+    </div>
+    <div class="hero-content">
+      <h1 style="color: black;">Kelajak Sari Birinchi Qadam</h1>
+      <p>O‘rganing, rivojlaning, ilgarilang!</p>
+      <a href="#kurslar" class="btn">Kurslarni ko‘rish</a>
+    </div>
+  </header>
+
+  <section id="kurslar" class="courses">
+    <h2 class="section-title">Mashhur kurslar</h2>
+    <div class="cards">
+      <div class="card">
+        <h3>Front-end Dasturlash</h3>
+        <p>HTML, CSS, JS orqali web sahifalar yaratish</p>
+        <button class="card" style="padding: 10px; margin-top: 30px; cursor: pointer;"> Batafsil</button>
+      </div>
+      <div class="card">
+        <h3>Python Asoslari</h3>
+        <p>Dasturlashning universal tili bilan boshlang</p>
+        <button class="card" style="padding: 10px; margin-top: 30px; cursor: pointer;"> Batafsil</button>
+      </div>
+      <div class="card">
+        <h3>Grafik Dizayn</h3>
+        <p>Figma, Photoshop orqali zamonaviy dizaynlar</p>
+        <button class="card" style="padding: 10px; margin-top: 30px; cursor: pointer;"> Batafsil</button>
+      </div>
+      <div class="card">
+        <h3>Ingliz Tili</h3>
+        <p>Speaking, listening va IELTS tayyorlov darslari</p>
+        <button class="card" style="padding: 10px; margin-top: 30px; cursor: pointer;"> Batafsil</button>
+      </div>
+      <div class="cards">
+        <div class="card">
+          <h3>Front-end Dasturlash</h3>
+          <p>HTML, CSS, JS orqali web sahifalar yaratish</p>
+          <button class="card" style="padding: 10px; margin-top: 30px; cursor: pointer;"> Batafsil</button>
+          
+        </div>
+        
+    </div>
+    <div class="cards">
+      <div class="card">
+        <h3>Front-end Dasturlash</h3>
+        <p>HTML, CSS, JS orqali web sahifalar yaratish</p>
+        <button class="card" style="padding: 10px; margin-top: 30px; cursor: pointer;"> Batafsil</button>
+      </div>
+    </div>
+    <div class="cards">
+      <div class="card">
+        <h3>Front-end Dasturlash</h3>
+        <p>HTML, CSS, JS orqali web sahifalar yaratish</p>
+        <button class="card" style="padding: 10px; margin-top: 30px; cursor: pointer;"> Batafsil</button>
+      </div>
+      </div>
+      <div class="cards">
+        <div class="card">
+          <h3>Front-end Dasturlash</h3>
+          <p>HTML, CSS, JS orqali web sahifalar yaratish</p>
+          <button class="card" style="padding: 10px; margin-top: 30px; cursor: pointer;"> Batafsil</button>
+        </div>
+  </section>
+  <section class="about" id="about">
+    <div class="about-container">
+      <h2 class="about-title">Sayt haqida</h2>
+      <div class="about-card">
+        <p>
+          <strong>YoshlarKurslari</strong> – bu zamonaviy kasblarni o‘rganish uchun yaratilgan platforma.
+          Maqsadimiz yoshlarni IT, dizayn, va til o‘rganishga jalb qilish, ularga sifatli va interaktiv kurslar taqdim etish.
+        </p>
+        <p>
+          Kurslarimiz onlayn va oflayn shaklda olib boriladi. Har bir kurs malakali mutaxassislar tomonidan tuzilgan
+          va o‘quvchilar amaliy bilimlarga ega bo‘lishadi.
+        </p>
+      </div>
+    </div>
+  </section>
+  <script>
+    function toggleMenu() {
+      document.querySelector('.nav-links').classList.toggle('active');
+    }
+  </script>
+  <footer class="site-footer">
+    <div class="footer-marquee">
+      <p>© 2025 YoshlarKurslari – Barcha huquqlar himoyalangan. | Web dasturlash, dizayn va til kurslari</p>
+    </div>
+  </footer>
+</body>
+</html>
